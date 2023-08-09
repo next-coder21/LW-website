@@ -25,10 +25,13 @@ h1{
 }
 #contact{
     background-color: aquamarine;
-    border-radius: 20px;
+    padding-bottom: 50px;
+    
 }
 .fm{
     background-color: beige;
+    border-radius: 20px;
+    padding-bottom: 15px;
 }
 .ftr ul li{
     list-style: none;
