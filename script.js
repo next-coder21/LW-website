@@ -5,14 +5,8 @@ function validte(){
           return false;
         }
       }
-var loader = document.getElementById('preloader');
-const fadeOutEffect = setInterval(() => {
-  if (!preloader.style.opacity) {
-    preloader.style.opacity = 1;
-  }
-  if (preloader.style.opacity > 0) {
-    preloader.style.opacity -= 1;
-  } else {
-    clearInterval(fadeEffect);
-  }
-}, 5000);
+$(window).on('load', function() { // makes sure the whole site is loaded 
+        $('#status').fadeOut(); // will first fade out the loading animation 
+        $('#preloader').delay(4800).fadeOut('fast'); // will fade out the white DIV that covers the website. 
+        $('body').delay(10).css({'overflow':'visible'});
+      })
