@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    border: 0;
+}
+nav{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    background-color: #ffff;
+}
+.nav-link{
+    color: blueviolet;
+}
+
+
+span{
+    color: red;
+}
+.about-me{
+    background-color: #ffff;
+}
+h1{
+    color: #303179;
+}
+.container{
+    padding-top: 100px;
+}
+#contact{
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+.fm{
+    background-color: beige;
+}
+.ftr ul li{
+    list-style: none;
+}
+.ftr a{
+    text-decoration: none;
+}
